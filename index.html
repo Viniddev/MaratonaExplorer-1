@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inicial-scale= 1.0"> 
+
+    <title>Adivinho</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <div id="corpo">
+      <img src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg" alt="Imagem de uma bola de cristal.">
+      <div id="estrutura">
+        <h1>Vou revelar seu destino!</h1>
+        <p>Clique em "fazer pergunta" para que seu destino seja revelado: </p>
+
+        <input type="text" id="imputPergunta" placeholder="Hmmm... Deixe-me pensar.">
+        <button onclick="fazerPergunta()" id="botaoPerguntar">Fazer pergunta</button>
+        <h3 id="resposta"></h3>
+
+      </div>
+    </div>
+  </body>
+</html>
