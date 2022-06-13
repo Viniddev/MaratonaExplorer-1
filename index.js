@@ -3,9 +3,17 @@ const imputPergunta= document.querySelector("#imputPergunta")
 const botaoPerguntar = document.querySelector("#botaoPerguntar")
 
 const respostas = [
-  "sim", 
-  "claro que sim", 
-  "mas é obvio que sim"
+   "Sim", 
+   "Claro que sim", 
+   "Mas é obvio que sim",
+   "É possivel que sim",
+   "Talvez Não",
+    "Talvez Sim",
+    "Possivelmente não",
+    "Não entedi, pergunte novamente",
+    "Você vai se surpreender...",
+    "Tudo indica que não",
+    "Não estou vendo... Pergunte novamente."
 ]
 
 // fazer pergunta
